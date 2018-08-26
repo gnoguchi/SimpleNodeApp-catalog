@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  customer-node-app:
+    image: gnoguchi/simplenodeapp
+    ports:
+      - "3000:3000"
+    labels:
+      io.rancher.scheduler.affinity:host_label: group=${host_group}
+      io.rancher.container.agent.role: environmentAdmin
+      io.rancher.container.create_agent: 'true'
