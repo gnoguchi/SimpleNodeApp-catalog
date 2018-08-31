@@ -9,9 +9,9 @@
       description:
       label: "Host Group:"
       required: true
-      default: 'simplenodeapp'
+      default: 'simpleNodeApp'
       type: "string"
-version: '3.3'
+version: '2'
 services:
   customer-node-app:
     scale: 1
