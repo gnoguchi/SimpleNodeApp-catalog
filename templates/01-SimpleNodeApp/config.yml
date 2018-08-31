@@ -1,7 +1,7 @@
 name: 01-SimpleNodeApp
-description: node app
+description: nodeapp
 version: d01
-category: Node App Develop
+category: NodeApp Develop
 maintainer: Gabriel Noguchi
 license: # The license
 projectURL: # A URL related to the catalog entry
